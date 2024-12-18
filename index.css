@@ -1,0 +1,184 @@
+:root{
+    --theme:#669bbc;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.conatiner{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 2em; */
+}
+.logo{
+    font-family: "Playball";
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+li{
+    margin-right: 1em;
+    list-style-type: none;
+    cursor: pointer;
+}
+li:hover{
+    /* color: var(--theme); */
+    color: green;
+}
+ol{
+    display: flex;
+}
+.nav_seperator{
+    border: 1px solid grey;
+    /* margin-bottom: 4em;  */
+}
+.inspired_text{
+    margin: 2em;
+    font-size: 2em;
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+}
+/* .soft_paint{
+    height:30vw;
+    width: 100%;
+    background-image: url("main_paint.png");
+    background-position: center;
+    background-repeat: none;
+} */
+.soft_image{
+    margin-bottom: 1em;
+}
+.head_text{
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+    margin: 4em;
+}
+.head_text_content{
+    width:50%;
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 1.5em;
+}
+.content_box{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    margin-bottom: 4em;
+}
+.project{
+    /* border: 2px solid black; */
+    height: 18em;
+    width: 20em;
+    border-radius:0.625rem;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+.project_image{
+    height: 80%;
+    width: 20em;
+    /* border-radius: 0.625rem; */
+    
+}
+.write{
+    display: flex;
+    flex-direction: column;
+    font-family: "Newsreader", serif;
+    margin-left: 0.3em;
+    margin-top: auto; 
+    margin-bottom: auto; 
+    margin-right: auto; 
+    letter-spacing: 0.02em;
+    /* font-weight: 500; */
+}
+.write1{
+    margin-bottom: 0.3em;
+    font-weight: 500;
+}
+.write2{
+    color: grey;
+}
+.clients{
+    /* margin:3em ; */
+}
+.client_head{
+    text-align: center;
+    font-family: "Lexend Exa", sans-serif;
+    font-weight: 00;
+    font-size: 2em;
+    margin: 2em;
+}
+.clients{
+    border: 2px solid black;
+}
+.client_name{
+    margin-top: 0.5em;
+    margin-left: 0.8em;
+}
+.line1 ,.line2{
+    margin: 0;
+    font-size: 0.9em;
+}
+.client_name p:nth-child(2){
+    color: grey;
+}
+.profile{
+    /* padding: 0.6em; */
+    height:15em;
+    width: 15em;
+    border: 2px solid grey;
+    border-radius: 0.625rem;
+    margin: 1em;
+}
+.client_profiles{
+    display: flex;
+
+}
+.client_profilepic{
+    display: flex;
+    justify-content:space-evenly;
+    height: 3em;
+    border-radius: 50%;
+}
+.client_head_container{
+    display: flex;
+    padding: 0.6em;
+    margin-bottom: 1em;
+    
+}
+.brief{
+    border: 2px solid black;
+    height: ;
+    width: 80%;
+    display: flex;
+    padding: 1em;
+    margin: auto;
+    
+    
+}
+.line_container{
+    width: 100%;
+    transform: rotate(90deg);
+    border: 2px solid black;
+    padding: 1em;
+}
+.line{
+    width: 100%;
+    border: 1px solid grey;
+}
