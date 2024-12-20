@@ -7,9 +7,9 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-.conatiner{
+.container{
     height: 100%;
-    width: 100%;
+    padding: 0 48px;
 }
 .navbar{
     display: flex;
@@ -53,6 +53,7 @@ ol{
     background-repeat: none;
 } */
 .soft_image{
+    width: 100%;
     margin-bottom: 1em;
 }
 .head_text{
@@ -92,7 +93,7 @@ ol{
 }
 .project_image{
     height: 80%;
-    width: 20em;
+    width: 100%;
     /* border-radius: 0.625rem; */
     
 }
@@ -122,11 +123,11 @@ ol{
     font-family: "Lexend Exa", sans-serif;
     font-weight: 00;
     font-size: 2em;
-    margin: 2em;
+    margin: 48px;
 }
-.clients{
-    border: 2px solid black;
-}
+/* .clients{
+    border: 2px solid black; */
+/* } */
 .client_name{
     margin-top: 0.5em;
     margin-left: 0.8em;
@@ -140,8 +141,8 @@ ol{
 }
 .profile{
     /* padding: 0.6em; */
-    height:15em;
-    width: 15em;
+    height:auto;
+    width: 20em;
     border: 2px solid grey;
     border-radius: 0.625rem;
     margin: 1em;
@@ -162,23 +163,27 @@ ol{
     margin-bottom: 1em;
     
 }
-.brief{
-    border: 2px solid black;
-    height: ;
-    width: 80%;
-    display: flex;
-    padding: 1em;
-    margin: auto;
-    
-    
+.breif{
+    height: auto;
 }
 .line_container{
     width: 100%;
     transform: rotate(90deg);
-    border: 2px solid black;
-    padding: 1em;
 }
 .line{
+    transform: translate(120px,100px);
+    width: 30%;
+    border: 1px solid rgba(128,128,128,0.5);
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    border: 1px solid grey;
+
 }
